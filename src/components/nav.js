@@ -15,14 +15,14 @@ class Nav extends Component {
           <p>NAGABABU</p>
           <button>Logout</button>&nbsp;
           {/* <button route={'/login'}>Login</button> */}
+          <ul>
+              {/* <li><a href="/login">Login</a></li> */}
+              {/* <li><a href="/aboutus">About Us</a></li>
+              <li><a href="/contactus">Contact Us</a></li> */}
+          </ul>
           {/* <a>Logout</a> */}
           </div>
-           {/* <ul>
-              <li className="logo">Design<span>Labs</span></li>
-          </ul> */}
-         {/* <ul>
-              <li className="logo">Design<span>Labs</span></li>
-          </ul>  */}
+          
       </nav>
     );
   }
